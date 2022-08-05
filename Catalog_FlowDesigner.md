@@ -1,5 +1,6 @@
 - [1. Catalog](#1-catalog)
 - [2. Flow Designer](#2-flow-designer)
+  - [Ref:](#ref)
 - [3. Workflow](#3-workflow)
   - [3.1. Workflow and Flow Designer Pro and Con](#31-workflow-and-flow-designer-pro-and-con)
 ## 1. Catalog 
@@ -25,7 +26,8 @@
   - Fix
     - [Flow reports not available. Check flow execution settings. – フローの詳細(Flow Reports)を確認する (ServiceNow)](https://zw-kakeru.com/tips/servicenow-aes-flow-reports-setting/)
 
-
+### 2.1. Ref:
+- [Platform Academy Session #14 - February 17, 2022 - Flow Designer Good Practices](https://www.youtube.com/watch?v=7LFmisAlrXU)
 ## 3. Workflow
 - Ref: [Success Meetup: Flow Designer vs. Workflows with Steven Bell [Knowledge 2020 ACT2107]](https://www.youtube.com/watch?v=Tp1iQJpNGUs)
 - HUGE install base
