@@ -1,6 +1,7 @@
-
 - [1. Catalog](#1-catalog)
 - [2. Flow Designer](#2-flow-designer)
+- [3. Workflow](#3-workflow)
+  - [3.1. Workflow and Flow Designer Pro and Con](#31-workflow-and-flow-designer-pro-and-con)
 ## 1. Catalog 
 - create the catalog item
 	- [Youtube: ServiceNow Catalog Item Creation | How to create a catalogue item in ServiceNow](https://www.youtube.com/watch?v=-w49Bu6RpxY&list=PLkXOxVrhArjzQG3-ZkhJ9i_t0t2-jEqkZ)
@@ -19,7 +20,21 @@
   - Catalog
 ## 2. Flow Designer
 - Error handling
-  - Error message showed when create flow designer, but cannot reference the execution result.
-    - ```Flow reports not available. Check flow execution settings. ``` 
+  - Error message showed when create the 
+    -　```Flow reports not available. Check flow execution settings. ``` 
   - Fix
     - [Flow reports not available. Check flow execution settings. – フローの詳細(Flow Reports)を確認する (ServiceNow)](https://zw-kakeru.com/tips/servicenow-aes-flow-reports-setting/)
+
+
+## 3. Workflow
+- Ref: [Success Meetup: Flow Designer vs. Workflows with Steven Bell [Knowledge 2020 ACT2107]](https://www.youtube.com/watch?v=Tp1iQJpNGUs)
+- HUGE install base
+- with very large trained developer base. In-depth custom development training.
+### 3.1. Workflow and Flow Designer Pro and Con
+- Very easy to do no-code solutiions in Flow Designer
+- Both require serious training to master.
+- Workflow has a scratchpad variable
+- Workflow has loopback to previous step
+- Flow designer has data pills, but cannot expad JSON or non-GlideRecord objects.
+- Deployment is the same for both(Update sets, scoped applications) 
+- A question about the worfkflow will be taken away --> Answer would be NO. 13:49
