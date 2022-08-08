@@ -1,8 +1,8 @@
 - [1. Catalog](#1-catalog)
 - [2. Flow Designer](#2-flow-designer)
-  - [Ref:](#ref)
+	- [2.1. Ref:](#21-ref)
 - [3. Workflow](#3-workflow)
-  - [3.1. Workflow and Flow Designer Pro and Con](#31-workflow-and-flow-designer-pro-and-con)
+	- [3.1. Workflow and Flow Designer Pro and Con](#31-workflow-and-flow-designer-pro-and-con)
 ## 1. Catalog 
 - create the catalog item
 	- [Youtube: ServiceNow Catalog Item Creation | How to create a catalogue item in ServiceNow](https://www.youtube.com/watch?v=-w49Bu6RpxY&list=PLkXOxVrhArjzQG3-ZkhJ9i_t0t2-jEqkZ)
@@ -16,13 +16,20 @@
 		- use yes no and attach the image
 - [predictive intelligence](https://docs.servicenow.com/bundle/sandiego-now-intelligence/page/administer/predictive-intelligence/concept/predictive-intelligence.html)
 	- just can be used by the incidents problem
-
+- create the catalog variable set
+  - You can create the variable set once, and utilize the variable set at other place for recycle.
+    - Two kinds of varible set.
+      - 1. Single-Row Variable Set.
+      - 2. Multi-Row Varibale Set
+        - [Multi-Row Variable Sets in ServiceNow | Share the Wealth](https://www.youtube.com/watch?v=SxNcI7-8eaw)
+          - The introduction of the multi-row varible sets.
+          - Developer can use the X-explore to see the entity of data.
 - How to remove OOTB feature:
-  - Catalog
+  - Remove the `<1000` workflow default. 
 ## 2. Flow Designer
 - Error handling
   - Error message showed when create the 
-    -　```Flow reports not available. Check flow execution settings. ``` 
+    - ```Flow reports not available. Check flow execution settings. ``` 
   - Fix
     - [Flow reports not available. Check flow execution settings. – フローの詳細(Flow Reports)を確認する (ServiceNow)](https://zw-kakeru.com/tips/servicenow-aes-flow-reports-setting/)
 
