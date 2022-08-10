@@ -1,8 +1,9 @@
 - [1. Catalog](#1-catalog)
 - [2. Flow Designer](#2-flow-designer)
-	- [2.1. Ref:](#21-ref)
+  - [2.1. Ref:](#21-ref)
 - [3. Workflow](#3-workflow)
-	- [3.1. Workflow and Flow Designer Pro and Con](#31-workflow-and-flow-designer-pro-and-con)
+  - [3.1. Workflow and Flow Designer Pro and Con](#31-workflow-and-flow-designer-pro-and-con)
+  - [3.2. Develop the workflow](#32-develop-the-workflow)
 ## 1. Catalog 
 - create the catalog item
 	- [Youtube: ServiceNow Catalog Item Creation | How to create a catalogue item in ServiceNow](https://www.youtube.com/watch?v=-w49Bu6RpxY&list=PLkXOxVrhArjzQG3-ZkhJ9i_t0t2-jEqkZ)
@@ -47,3 +48,10 @@
 - Flow designer has data pills, but cannot expad JSON or non-GlideRecord objects.
 - Deployment is the same for both(Update sets, scoped applications) 
 - A question about the worfkflow will be taken away --> Answer would be NO. 13:49
+### 3.2. Develop the workflow
+- [Workflow basic](https://developer.servicenow.com/dev.do#!/learn/courses/quebec/app_store_learnv2_automatingapps_quebec_automating_application_logic/app_store_learnv2_automatingapps_quebec_workflow/app_store_learnv2_automatingapps_quebec_workflow_objectives)
+- [Article #9 - Create User Approvals using Catalog Variables](https://community.servicenow.com/community?id=community_article&sys_id=e45144b7dbea9010190b1ea668961963) 
+- [How to use a Catalog Item Variable (reference: sys_user) as an Approver in the Workflow Approval Activity.](https://community.servicenow.com/community?id=community_question&sys_id=42eb807ddb1590d05ed4a851ca961946)
+- [**Dynamic Approval Configuration** in ServiceNow | Dynamic Approval Workflow ServiceNow](https://www.youtube.com/watch?v=honIwnuiJ7I&t=714s)
+- Get the variables from catalog task to email in workflow
+  - [Pull catalog item variables into email notification for TASK](https://community.servicenow.com/community?id=community_question&sys_id=5c4503addbd8dbc01dcaf3231f961915)
