@@ -27,6 +27,8 @@
           - Developer can use the X-explore to see the entity of data.
 - How to remove OOTB feature:
   - Remove the `<1000` workflow default. 
+- How to check the attachment mandatory
+  - [Solution: Attachment Mandatory in Catalog Item ServiceNow | Practical Demonstration](https://www.youtube.com/watch?v=mBCuGw2GhpE)
 ## 2. Flow Designer
 - Error handling
   - Error message showed when create the 
